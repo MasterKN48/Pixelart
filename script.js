@@ -37,6 +37,8 @@ function makeGrid() {
         cell.addEventListener('click', function() {
             cell.style.backgroundColor = color.val();
         });
+        cell.addEventListener('dbclick', function (){
+        cell.style.backgroundColor='white';});
     }
     for (let i = 0; i < height; i++) {
         let row = c.insertRow(i);
