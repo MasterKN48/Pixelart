@@ -37,7 +37,7 @@ function makeGrid() {
         cell.addEventListener('click', function() {
             cell.style.backgroundColor = color.val();
         });
-        cell.addEventListener('dbclick', function (){
+        cell.addEventListener('dblclick', function (){
         cell.style.backgroundColor='white';});
     }
     for (let i = 0; i < height; i++) {
